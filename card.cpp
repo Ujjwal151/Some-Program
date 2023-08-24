@@ -11,8 +11,10 @@ void printvec(int n, vector<int> &v)
 {
     int cnt = v.size() - count(all(v), -n);
     printf("\nSeries %d >> Absent: %d \n", n, cnt);
-    for (auto x : v)
+    for (auto x : v){
+        if( x < 10) break;
         cout << x << " ";
+    }
     cout << "\n";
 }
 
