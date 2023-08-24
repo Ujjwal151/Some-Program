@@ -31,8 +31,8 @@ void fun(vector<int> &received, int terminateValue)
 
 int32_t main()
 {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
     fun(received10, -10);
     fun(received11, -11);
     fun(received20, -20);
